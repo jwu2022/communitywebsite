@@ -1,0 +1,17 @@
+---
+layout: archive
+classes: wide
+author_profile: true
+title: "About St. Damien"
+permalink: /about-stdamien/
+header:
+  overlay_image: "/assets/img/mountain.jpg"
+---
+
+<div class="page__content" style="display: flex; flex-direction: row;">
+  <div style="max-width: 100%;">
+  {% capture st_damien %}{% include webcontent/StDaimenBio.md %}{% endcapture %}
+  {{ st_damien | markdownify }}
+  </div>
+
+</div>
